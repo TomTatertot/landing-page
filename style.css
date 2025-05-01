@@ -58,6 +58,33 @@ body {
     color: #E5E7EB;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 200px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
 button{
     background-color: #3882F6;
     padding: 5px 20px;
@@ -68,7 +95,14 @@ button{
     color: #F9FAF8;
 }
 
-
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
 
 ul {
     margin: 0;
